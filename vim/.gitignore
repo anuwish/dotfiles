@@ -1,2 +1,17 @@
 # Ignore view folder
 view/
+.vimrc.swp
+bundle/YouCompleteMe/
+bundle/ctrlp.vim/
+bundle/emmet-vim/
+bundle/nerdtree/
+bundle/syntastic/
+bundle/vim-airline/
+bundle/vim-dispatch/
+bundle/vim-fireplace/
+bundle/vim-fugitive/
+bundle/vim-gitgutter/
+bundle/vim-go/
+bundle/vim-multiple-cursors/
+bundle/vundle/
+bundle/xterm-color-table.vim/
