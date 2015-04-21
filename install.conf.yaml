@@ -6,8 +6,9 @@
     ~/.vim: vim/
     ~/.vimrc: vimrc
     ~/.pythonrc.py: pythonrc
-    ~/.gitignore_global: gitignore_global
-    ~/.gitconfig: gitconfig
+    ~/.gitignore_global: git/gitignore_global
+    ~/.gitconfig: git/gitconfig
+    ~/.git-completion.sh: git/git-completion.sh
     ~/.zshrc: zsh/zshrc
     ~/.zshenv: zsh/zshenv
     ~/.zshlogin: zsh/zshlogin

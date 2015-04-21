@@ -1,0 +1,53 @@
+#-----------------------------------
+# Source global definitions (if any)
+#-----------------------------------
+
+if [ -f /etc/bashrc ]; then
+            . /etc/bashrc   # --> Read /etc/bashrc, if present.
+fi
+export EDITOR=vim
+export VISUAL=$EDITOR
+export PAGER=less
+export LESS='-iMn'
+
+# ls aliase
+alias ll='ls -lh'
+alias la='ls -A'
+alias l='ls -lha'
+alias dir='ls -lht | less'
+
+# be faster aliase
+alias cd..='cd ..'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias cls='clear'
+alias h='history'
+alias df='df -h'
+
+# resume scp
+alias scpresume='rsync --partial --progress --rsh=ssh'
+
+# ROOT stuff
+#export ROOTSYS=/Applications/root
+#export PATH=$ROOTSYS/bin:$PATH
+#export LD_LIBRARY_PATH=$ROOTSYS/lib:$PYTHONDIR/lib:$LD_LIBRARY_PATH
+#export DYLD_LIBRARY_PATH=/System/Library/Frameworks/Python.framework/Versions/Current:$ROOTSYS/lib:$DYLD_LIBRARY_PATH
+#export PYTHONPATH=$ROOTSYS/lib:$PYTHONPATH
+#alias root='/Applications/root/bin/root.exe'
+
+# Tab completion for python
+export PYTHONSTARTUP=$HOME/.pythonrc.py
+
+# Color stuff
+export CLICOLOR=1
+#export LSCOLORS=Exfxcxdxbxegedabagacad
+export GREP_OPTIONS='--color=auto'
+
+# GIT iTerm stuff
+source ~/.git-completion.sh
+
+# enable git unstaged indicators - set to a non-empty value
+GIT_PS1_SHOWDIRTYSTATE="."
+
+# enable showing of untracked files - set to a non-empty value
+GIT_PS1_SHOWUNTRACKEDFILES="."
