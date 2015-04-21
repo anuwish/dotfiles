@@ -15,5 +15,13 @@
     ~/.zshlogout: zsh/zshlogout
     ~/.zprezto: zsh/prezto
     ~/.zpreztorc: zsh/preztorc
+    ~/.bashrc: bash/bashrc
+    ~/.bash_profile: bash/bash_profile
+    ~/.bash_aliases: bash/bash_aliases
+    ~/.bash_exports: bash/bash_exports
+    ~/.bash_options: bash/bash_options
+    ~/.bash_paths:   bash/bash_paths
+    ~/.bash_prompt:  bash/bash_prompt
+    ~/.inputrc:      bash/inputrc
 - shell:
     - [git submodule update --init --recursive, Installing submodules]

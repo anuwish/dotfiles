@@ -1,3 +1,4 @@
+#!/bin/bash
 -----------------------------------
 # Source global definitions (if any)
 #-----------------------------------
@@ -6,33 +7,9 @@ if [ -f /etc/bashrc ]; then
             . /etc/bashrc   # --> Read /etc/bashrc, if present.
 fi
 
-export EDITOR=vim
-export VISUAL=$EDITOR
-export PAGER=less
-export LESS='-iMn'
+# bashrc
 
-# Locale for terminal
-export LC_CTYPE=en_US.UTF-8
-export LC_ALL=en_US.UTF-8
+[ -n "$PS1" ] && source ~/.bash_profile
 
-# ls aliase
-alias ll='ls -lh'
-alias la='ls -A'
-alias l='ls -lha'
-alias dir='ls -lht | less'
 
-# be faster aliase
-alias cd..='cd ..'
-alias ..='cd ..'
-alias ...='cd ../..'
-alias cls='clear'
-alias h='history'
-alias df='df -h'
 
-# resume scp
-alias scpresume='rsync --partial --progress --rsh=ssh'
-
-# Tab completion for python
-export PYTHONSTARTUP=$HOME/.pythonrc.py
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

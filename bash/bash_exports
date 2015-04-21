@@ -1,0 +1,46 @@
+#!/bin/bash
+
+# Locale for terminal
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+# Editor
+export EDITOR=vim
+export VISUAL=$EDITOR
+export PAGER=less
+export LESS='-iMn'
+
+# Ignore duplicate commands in the history
+export HISTCONTROL=ignoredups
+
+# Increase the maximum number of lines contained in the history file
+# (default is 500)
+export HISTFILESIZE=10000
+
+# Increase the maximum number of commands to remember
+# (default is 500)
+export HISTSIZE=10000
+
+# Don't clear the screen after quitting a manual page
+export MANPAGER="less -X"
+
+# Make new shells get the history lines from all previous
+# shells instead of the default "last window closed" history
+export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+
+# Tab completion for python
+export PYTHONSTARTUP=$HOME/.pythonrc.py
+
+# Color stuff
+export CLICOLOR=1
+#export LSCOLORS=Exfxcxdxbxegedabagacad
+export GREP_OPTIONS='--color=auto'
+
+# ROOT stuff
+#export ROOTSYS=/Applications/root
+#export PATH=$ROOTSYS/bin:$PATH
+#export LD_LIBRARY_PATH=$ROOTSYS/lib:$PYTHONDIR/lib:$LD_LIBRARY_PATH
+#export DYLD_LIBRARY_PATH=/System/Library/Frameworks/Python.framework/Versions/Current:$ROOTSYS/lib:$DYLD_LIBRARY_PATH
+#export PYTHONPATH=$ROOTSYS/lib:$PYTHONPATH
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
