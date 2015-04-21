@@ -1,9 +1,10 @@
-M configuration
+" VIM configuration
 " Uses Vundle for plug-ins.
 " Some options for {G,M}VIM are set, too.
+" Based on file by Kevin Dungs <kevin@dun.gs>
 "
-" Author: Kevin Dungs <kevin@dun.gs>
-" Date:   2015-02-18
+" Author: Julian Wishahi <julian@wishahi.de>
+" Date:   2015-04-21
 
 
 " Load plug-ins via Vundle
