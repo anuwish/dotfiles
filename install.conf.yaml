@@ -5,8 +5,14 @@
     ~/.tmux.conf: tmux.conf
     ~/.vim: vim/
     ~/.vimrc: vimrc
-    ~/.pythonrc: pythonrc
+    ~/.pythonrc.py: pythonrc
     ~/.gitignore_global: gitignore_global
     ~/.gitconfig: gitconfig
+    ~/.zshrc: zsh/zshrc
+    ~/.zshenv: zsh/zshenv
+    ~/.zshlogin: zsh/zshlogin
+    ~/.zshlogout: zsh/zshlogout
+    ~/.zprezto: zsh/prezto
+    ~/.zpreztorc: zsh/preztorc
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
