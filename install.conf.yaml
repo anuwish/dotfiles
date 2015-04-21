@@ -15,7 +15,7 @@
     ~/.zlogin: zsh/zlogin
     ~/.zlogout: zsh/zlogout
     ~/.zprezto: zsh/prezto
-    ~/.zpreztorc: zsh/zpreztorc
+    ~/.zpreztorc: zsh/zprestorc
     ~/.bashrc: bash/bashrc
     ~/.bash_profile: bash/bash_profile
     ~/.bash_aliases: bash/bash_aliases
