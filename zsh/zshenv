@@ -8,21 +8,21 @@ if [[ "$OSTYPE" == darwin* ]]; then
   export BROWSER='open'
 fi
 
-#
-# Editors
-#
 
+# Editors
 export EDITOR='vim'
 export VISUAL='vim'
 export PAGER='less'
 
-#
 # Language
-#
-
 if [[ -z "$LANG" ]]; then
   export LANG='en_US.UTF-8'
+  export LC_ALL=en_US.UTF-8
 fi
+
+# Color stuff
+export CLICOLOR=1
+export GREP_OPTIONS='--color=auto'
 
 #
 # Paths
@@ -37,6 +37,7 @@ typeset -gU cdpath fpath mailpath path
 
 # Set the list of directories that Zsh searches for programs.
 path=(
+  ~/anaconda/bin
   /usr/local/{bin,sbin}
   $path
 )
