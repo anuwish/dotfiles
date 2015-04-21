@@ -10,11 +10,12 @@
     ~/.gitconfig: git/gitconfig
     ~/.git-completion.sh: git/git-completion.sh
     ~/.zshrc: zsh/zshrc
+    ~/.zprofile: zsh/zprofile
     ~/.zshenv: zsh/zshenv
-    ~/.zshlogin: zsh/zshlogin
-    ~/.zshlogout: zsh/zshlogout
+    ~/.zlogin: zsh/zlogin
+    ~/.zlogout: zsh/zlogout
     ~/.zprezto: zsh/prezto
-    ~/.zpreztorc: zsh/preztorc
+    ~/.zpreztorc: zsh/zpreztorc
     ~/.bashrc: bash/bashrc
     ~/.bash_profile: bash/bash_profile
     ~/.bash_aliases: bash/bash_aliases
