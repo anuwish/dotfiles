@@ -90,7 +90,7 @@ set nohidden
 
 " Spell-checker
 set spell spelllang=en_gb
-
+set nospell
 
 " Plug-in specific settings
 
