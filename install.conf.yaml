@@ -27,3 +27,4 @@
     ~/.fonts:        fonts
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
+    - [~/.fonts/install.sh, Installing powerline fonts]

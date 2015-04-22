@@ -95,10 +95,10 @@ set spell spelllang=en_gb
 " Plug-in specific settings
 
 "" Airline
-set laststatus=2
-let g:airline_powerline_fonts = 1
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#buffer_nr_show = 1
+"set laststatus=2
+"let g:airline_powerline_fonts = 1
+"let g:airline#extensions#tabline#enabled = 1
+"let g:airline#extensions#tabline#buffer_nr_show = 1
 
 "" Clang-format
 map <C-K> :pyf ~/.vim/clang-format/clang-format.py<CR>
