@@ -36,6 +36,9 @@ export CLICOLOR=1
 #export LSCOLORS=Exfxcxdxbxegedabagacad
 export GREP_OPTIONS='--color=auto'
 
+# Anaconda
+export PATH="/Local/Anaconda/bin:$PATH"
+
 # ROOT stuff
 #export ROOTSYS=/Applications/root
 #export PATH=$ROOTSYS/bin:$PATH
