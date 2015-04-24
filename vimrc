@@ -90,7 +90,7 @@ set nohidden
 
 " Spell-checker
 set spell spelllang=en_gb
-
+set nospell
 
 " Plug-in specific settings
 
@@ -114,7 +114,7 @@ let NERDTreeShowHidden=1
 map <C-t> :NERDTreeToggle<CR>
 
 "" Syntastic
-let g:syntastic_enable_signs=1
-let g:syntastic_javascript_checkers = ['jslint']
-let g:syntastic_json_checkers = ['jsonlint']
-let g:syntastic_python_checkers = ['pep8']
+"let g:syntastic_enable_signs=1
+"let g:syntastic_javascript_checkers = ['jslint']
+"let g:syntastic_json_checkers = ['jsonlint']
+"let g:syntastic_python_checkers = ['pep8']
