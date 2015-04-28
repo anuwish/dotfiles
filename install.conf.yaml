@@ -6,7 +6,7 @@
     ~/.vim: vim/
     ~/.vimrc: vimrc
     ~/.pythonrc.py: python/pythonrc
-    ~/.pydistutil.cfg: python/pydistutil.cfg
+    ~/.pydistutils.cfg: python/pydistutils.cfg
     ~/.gitignore_global: git/gitignore_global
     ~/.gitconfig: git/gitconfig
     ~/.git-completion.sh: git/git-completion.sh
