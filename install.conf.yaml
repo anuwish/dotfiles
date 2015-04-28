@@ -5,7 +5,8 @@
     ~/.tmux.conf: tmux.conf
     ~/.vim: vim/
     ~/.vimrc: vimrc
-    ~/.pythonrc.py: pythonrc
+    ~/.pythonrc.py: python/pythonrc
+    ~/.pydistutil.cfg: python/pydistutil.cfg
     ~/.gitignore_global: git/gitignore_global
     ~/.gitconfig: git/gitconfig
     ~/.git-completion.sh: git/git-completion.sh
