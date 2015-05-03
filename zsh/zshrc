@@ -9,3 +9,6 @@ fi
 
 # Customize to your needs...
 
+# Aliases
+alias setROOT5="pushd $(brew --prefix root) >/dev/null; . libexec/thisroot.sh; popd >/dev/null"
+alias setROOT6="pushd $(brew --prefix root6) >/dev/null; . libexec/thisroot.sh; popd >/dev/null"
