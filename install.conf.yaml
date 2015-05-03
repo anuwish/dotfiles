@@ -29,3 +29,4 @@
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
     - [~/.fonts/install.sh, Installing powerline fonts]
+    - [mkdir ~/.history, Create directory for python history]
