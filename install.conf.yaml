@@ -7,6 +7,7 @@
     ~/.vimrc: vimrc
     ~/.pythonrc.py: python/pythonrc
     ~/.pydistutils.cfg: python/pydistutils.cfg
+    ~/.ipython: python/ipython
     ~/.gitignore_global: git/gitignore_global
     ~/.gitconfig: git/gitconfig
     ~/.git-completion.sh: git/git-completion.sh
@@ -29,4 +30,4 @@
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
     - [~/.fonts/install.sh, Installing powerline fonts]
-    - [mkdir ~/.history, Create directory for python history]
+    - [mkdir -p ~/.history, Create directory for python history]
