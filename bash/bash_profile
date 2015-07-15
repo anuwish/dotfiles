@@ -56,3 +56,6 @@ GIT_PS1_SHOWDIRTYSTATE="."
 
 # enable showing of untracked files - set to a non-empty value
 GIT_PS1_SHOWUNTRACKEDFILES="."
+
+# added by Anaconda 2.2.0 installer
+export PATH="/Users/wishahi/anaconda/bin:$PATH"

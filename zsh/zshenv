@@ -83,3 +83,10 @@ alias scpresume='rsync --partial --progress --rsh=ssh'
 # Tab completion for python
 export PYTHONSTARTUP=$HOME/.pythonrc.py
 
+export PATH='/Users/wishahi/anaconda/bin:$PATH'
+
+
+# Mount commands
+mounthome() { sshfs $1:/home/jwishahi /MountPoints/$1-home -o auto_cache,reconnect,volname=$1-home,no_readahead,noappledouble,nolocalcaches}
+umounthome() { umount /MountPoints/$1-home }
+

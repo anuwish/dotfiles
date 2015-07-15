@@ -1,17 +1,17 @@
-/*
-Placeholder for custom user CSS
-
-mainly to be overridden in profile/static/custom/custom.css
-
-This will always be an empty file in IPython
-*/
-<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900,100italic,300italic,400italic,500italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
+/*<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900,100italic,300italic,400italic,500italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
-<style>
+<link href='https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+<style>*/
+<link href='https://www.google.com/fonts#UsePlace:use/Collection:PT+Sans:400,700,400italic,700italic' rel='styleshee' type='text/css'>
+<link href='https://www.google.com/fonts#UsePlace:use/Collection:PT+Serif:400,700,400italic,700italic' rel='styleshee' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
 
+
+
+<style>
 @font-face {
     font-family: "Computer Modern";
     src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
@@ -33,7 +33,7 @@ div #notebook { /* centre the content */
 }
 
 #notebook li { /* More space between bullet points */
-margin-top:0.8em;
+margin-top:0.5em;
 }
 
 /* draw border around running cells */
@@ -51,9 +51,9 @@ div.cell.code_cell {
 }
 
 div.text_cell_render{
-    font-family: 'Alegreya Sans' sans-serif;
-    line-height: 140%;
-    font-size: 125%;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 120%;
+    font-size: 110%;
     font-weight: 400;
     width: 930px;
     margin-left:auto;
@@ -63,8 +63,9 @@ div.text_cell_render{
 
 /* Formatting for header cells */
 .text_cell_render h1 {
-    font-family: 'Nixie One', serif;
-    font-style:regular;
+    /*font-family: 'Nixie One', serif;*/
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
     font-weight: 400;    
     font-size: 45pt;
     line-height: 100%;
@@ -74,7 +75,7 @@ div.text_cell_render{
     display: block;
 }   
 .text_cell_render h2 {
-    font-family: 'Nixie One', serif;
+    font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     font-size: 30pt;
     line-height: 100%;
@@ -85,7 +86,7 @@ div.text_cell_render{
 }   
 
 .text_cell_render h3 {
-    font-family: 'Nixie One', serif;
+    font-family: 'PT Sans', sans-serif;
     margin-top:16px;
   font-size: 22pt;
     font-weight: 600;
@@ -95,7 +96,7 @@ div.text_cell_render{
 }
 
 .text_cell_render h4 {    /*Use this for captions*/
-    font-family: 'Nixie One', serif;
+    font-family: 'PT Serif', serif;
     font-size: 14pt;
     text-align: center;
     margin-top: 0em;
@@ -104,7 +105,7 @@ div.text_cell_render{
 }
 
 .text_cell_render h5 {  /*Use this for small titles*/
-    font-family: 'Nixie One', sans-serif;
+    font-family: 'PT Serif', serif;
     font-weight: 400;
     font-size: 16pt;
     color: rgb(163,0,0);
