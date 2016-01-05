@@ -92,6 +92,9 @@ set nohidden
 set spell spelllang=en_gb
 set nospell
 
+" share copy/paste etc. buffer with OS
+set clipboard=unnamed
+
 " Plug-in specific settings
 
 "" Airline
