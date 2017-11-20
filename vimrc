@@ -15,7 +15,7 @@ call vundle#rc()
 " List of plug-ins
 "Plugin 'Valloric/YouCompleteMe'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'bling/vim-airline'
+" Plugin 'bling/vim-airline'
 Plugin 'fatih/vim-go'
 Plugin 'gmarik/vundle'
 Plugin 'guns/xterm-color-table.vim'
@@ -27,6 +27,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-dispatch'
 Plugin 'tpope/vim-fireplace'
 Plugin 'tpope/vim-fugitive'
+Plugin 'chriskempson/base16-vim'
 filetype plugin indent on
 
 
@@ -60,7 +61,7 @@ set smartcase
 " Colours
 syntax enable
 "colorscheme tomorrow-night
-colorscheme tomorrow
+" colorscheme base16-tomorrow 
 
 
 " Options for {G,M}VIM
